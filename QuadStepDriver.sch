@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4794,11 +4794,16 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pinref part="R33" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="LED2" class="0">
 <segment>
 <wire x1="33.02" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="RB4/AN11/KBI0/CSSPP"/>
 <label x="30.48" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="187.96" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PGD" class="0">
@@ -5029,7 +5034,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="LED1" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
@@ -5089,13 +5094,6 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pinref part="JP2" gate="A" pin="1"/>
 <junction x="193.04" y="114.3"/>
 <label x="185.42" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$55" class="0">
-<segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="187.96" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
