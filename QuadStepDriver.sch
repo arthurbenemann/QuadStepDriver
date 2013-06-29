@@ -4196,7 +4196,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R33" library="SparkFun" deviceset="RESISTOR" device="" value="10k"/>
+<part name="R33" library="SparkFun" deviceset="RESISTOR" device="" value="330R"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun" deviceset="A4983" device=""/>
@@ -4376,10 +4376,10 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <part name="P+46" library="SparkFun" deviceset="3.3V" device="" value="VOUT"/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X5" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-2X5" device=""/>
-<part name="R34" library="SparkFun" deviceset="RESISTOR" device="" value="10k"/>
+<part name="R34" library="SparkFun" deviceset="RESISTOR" device="" value="330R"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R35" library="SparkFun" deviceset="RESISTOR" device="" value="10k"/>
+<part name="R35" library="SparkFun" deviceset="RESISTOR" device="" value="330R"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X3" device=""/>
