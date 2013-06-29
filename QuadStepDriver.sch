@@ -4383,6 +4383,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4472,6 +4473,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <instance part="LED3" gate="G$1" x="203.2" y="86.36" rot="R90"/>
 <instance part="GND10" gate="1" x="210.82" y="86.36" rot="MR270"/>
 <instance part="JP2" gate="A" x="195.58" y="111.76"/>
+<instance part="GND32" gate="1" x="35.56" y="12.7" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4581,6 +4583,15 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
+</segment>
+<segment>
+<pinref part="X11" gate="-3" pin="1"/>
+<wire x1="33.02" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="X11" gate="-4" pin="1"/>
+<wire x1="35.56" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<junction x="35.56" y="15.24"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -4819,6 +4830,11 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 </segment>
 </net>
 <net name="PGC" class="0">
+<segment>
+<wire x1="30.48" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="RB6/KBI2/PGC"/>
+<label x="30.48" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="X14" gate="G$1" pin="PGC"/>
 <wire x1="30.48" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
